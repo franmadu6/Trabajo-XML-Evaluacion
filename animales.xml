@@ -1,0 +1,250 @@
+<mamiferos>
+    <animales>
+        <id>01</id>
+            <nombre>JAGUAR MELANICO</nombre>
+            <descripcion>Tiene un pelaje negro debido a un exceso de pigmentación, dado por un gen dominante.</descripcion>
+            <caracteristicas>
+                <talla>
+                    <longitud>1.10-1.90cm</longitud>
+                    <alza>70cm</alza>
+                </talla>
+                <peso>125-248 lbs</peso>
+                <reproduccion>
+                    <MadurezSexual>2-4años</MadurezSexual>
+                    <celo>todo el año</celo>
+                    <gestacion>3 meses</gestacion>
+                    <numcrias>2-4</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>tortugas,ranas,peces y mamiferos hasta el tamaño de un tapir</dieta>
+            <habitat>Centro America y Sur America</habitat>
+            <estado>criticamente amenazado</estado>
+            <datocurioso>si lo observan detenidamente podras ver las caracteristicas rosetas de los jaguares</datocurioso>
+    </animales>
+    <animales>
+        <id>02</id>
+            <nombre>JAGUAR YAGOUAROUNDI</nombre>
+            <descripcion>Felino pequeño, del tamaño de un gato doméstico cuerpo esbelto, usualmente de color gris o café oscuro, sin manchas. En Guatemala podermos encontrarlo en las selvas del norte y la costa sur.</descripcion>
+            <caracteristicas>
+                <talla>
+                    <longitud>55-67cm</longitud>
+                    <alza>25-35cm</alza>
+                </talla>
+                <peso>11-22 lbs</peso>
+                <reproduccion>
+                    <MadurezSexual>2años</MadurezSexual>
+                    <celo>todo el año</celo>
+                    <gestacion>63-70 dias</gestacion>
+                    <numcrias>2-4</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>pequeños mamiferos,aves y reptiles</dieta>
+            <habitat>selvas tropilaes desde el sur de Texas hasta el sur de Brasil y Paraguay.</habitat>
+            <estado>en peligro</estado>
+            <datocurioso>son animales muy reservados. Se creyó una vez que eran solitarios excepto en la estación de crianza. Los avistamienteos recientes de pares sugieren que pueden ser sociales. Tienen hábitos diurnos y terrestres pero también son buenos trepadores y nadadores.</datocurioso>
+    </animales>
+    <animales>
+        <id>03</id>
+            <nombre>PANTHERAS TIGRIS</nombre>
+            <descripcion>Es naranja rojizo con rayas oscuras y su vientre es blanco. Se puede notar la diferencia entre dos tigres observando cuidadosamente sus caras, cada tigre tiene un patròn de rayas diferente. Acostumbra impregnar su olor especial en los àrboles para visar a otros tigres que deben de quedarse fuera de su territorio.</descripcion>
+            <caracteristicas>
+                <talla>
+                    <longitud>3,80 m</longitud>
+                    <alza>1.10 m</alza>
+                </talla>
+                <peso>175-525 lbs</peso>
+                <reproduccion>
+                    <MadurezSexual>3-5 años</MadurezSexual>
+                    <celo>noviembre-abril</celo>
+                    <gestacion>98-110 dias</gestacion>
+                    <numcrias>2-4</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>carnivoros</dieta>
+            <habitat>bosques de Asia</habitat>
+            <estado>en peligro</estado>
+            <datocurioso>para vivir un tigre necesia comer de 40 a 70 animales al año. Este es el miembro más grande de la familia de los felinos, por su tamaño y fuerza caza animales grandes como los ciervos.</datocurioso>
+    </animales>
+    <animales>
+        <id>04</id>
+            <nombre>TIGRE DE BENGALA BLANCO</nombre>
+            <descripcion>Esta bella tigresa es originaria de la India, debe su color blanco a un gen recesivo (leucistico) y se diferencian de un albino ya que este último no tiene rayas y presentan ojos rojos.</descripcion>
+            <caracteristicas>
+                <talla>
+                    <longitud>3,10 m</longitud>
+                    <alza>1 m</alza>
+                </talla>
+                <peso>175-380 lbs</peso>
+                <reproduccion>
+                    <MadurezSexual>3-5 años</MadurezSexual>
+                    <celo>noviembre-abril</celo>
+                    <gestacion>98-110 dias</gestacion>
+                    <numcrias>2-4</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>carnivoros</dieta>
+            <habitat>Existen otras cuatro sub-especies de tigre que son la siberiana, la del sur de China, de Indochina y de Sumatra.</habitat>
+            <estado>en peligro</estado>
+            <datocurioso> en vida libre en 100 años tan sólo se han viso 12 ejemplares y en cautiverio existen tan sòlo 250 individuos. Sus rayas son únicas para cada individuo. Pueden comerse de una solo vez hasta 85 lbs. de carne, son veloces, buenos nadadores y ágiles trepadores,El tigre blanco es un buen nadador, pero un escalador muy pobre. </datocurioso>
+    </animales>
+    <animales>
+        <id>05</id>
+            <nombre>PAPIÓN O BAUBINO</nombre>
+            <descripcion>Es un animal de gran tamaño, tiene un hocico muy grande parecido al del perro con grandes colmillos. La cola tiene forma de "U" invertida, su pelaje va de gris oscuro al marrón dorado.</descripcion>
+            <caracteristicas>
+                <talla>50-70 cm</talla>
+                <peso>35-45kg</peso>
+                <reproduccion>
+                    <MadurezSexual>5-8 años</MadurezSexual>
+                    <celo>todo el año</celo>
+                    <gestacion>80 dias</gestacion>
+                    <numcrias>1</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>omnivoros</dieta>
+            <habitat>Africa.</habitat>
+            <estado>preocupacion menor</estado>
+            <datocurioso>son animales muy gregarios y viven en manadas entre 20 a 80 individuos o más. Dentro de la manada todos los machos adultos dominan sobre las hembras aunque también existe una jerarquía entre ellos.</datocurioso>
+    </animales>
+    <animales>
+        <id>06</id>
+            <nombre>TIGRILLO O MARGAY</nombre>
+            <descripcion>El color general de su cuerpo es amarillo o café grisáceo. Está cubierto de manchas negras más claras en el centro en la patas. Tiene ojos grandes de color café oscuro.</descripcion>
+            <caracteristicas>
+                <talla>80 - 90 cm. de largo</talla>
+                <peso>5-8 lbs</peso>
+                <reproduccion>
+                    <MadurezSexual>2 años</MadurezSexual>
+                    <celo>todo el año</celo>
+                    <gestacion>1-2 meses</gestacion>
+                    <numcrias>1</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>monos, ardillas, zarigüeyas y otros pequeños mamíferos, aves, artrópodos y en ocasiones frutos.</dieta>
+            <habitat>bosques tropicales de América Central y del sur.</habitat>
+            <estado>vulnerable</estado>
+            <datocurioso>sus patas traseras tienen mucha flexibilidad que las de otros felinos (con la capacidad de rotar hasta  180 grados), lo que le permite descender de los árboles con la cabeza hacia abajo.</datocurioso>
+    </animales>
+    <animales>
+        <id>07</id>
+            <nombre>OCELOTE</nombre>
+            <descripcion>Su pelo es corto y suave, de color amarillo con manchas negras y líneas a lo largo del cuello y costados; muchas de las manchas son abiertas enforma de rosetas. La parte ventral es blanca como manchas. Los ojos son grandes.</descripcion>
+            <caracteristicas>
+                <talla>80 - 120 cm. de largo</talla>
+                <peso>10-28 lbs</peso>
+                <reproduccion>
+                    <MadurezSexual>1-2 años</MadurezSexual>
+                    <celo>todo el año</celo>
+                    <gestacion>1-2 meses</gestacion>
+                    <numcrias>1-4</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>mamíferos, aves, reptiles de tamaño mediano y pequeño.</dieta>
+            <habitat>bosques tropicales, pantanos desde el sur de Estados Unidos hasta el norte de Argentina.</habitat>
+            <estado>vulnerable</estado>
+            <datocurioso>ocasionalmente se le confunde con el margay, dándosele a ambos el nombre de tigrillo, distinguiéndose de éste por el de mayor tamaño, cola más corta y color más grisáceo.</datocurioso>
+    </animales>
+    <animales>
+        <id>08</id>
+            <nombre>ZORRO GRIS O GATO DE MONTE</nombre>
+            <descripcion>Tiene le aspecto de un perro pequeño, con hocico agudo, orejas rectas y patas cortas. La cola es larga y espesa. El pelaje es gris oscuro o plateado en el dorso, rojizo en los costados y blnco en el vientre, mejillas y garganta. Una banda de pelo negro recorre todo el lomo desde la nuca hasta la punta de la cola.</descripcion>
+            <caracteristicas>
+                <talla>48-68 cm. de largo</talla>
+                <peso>9 lbs</peso>
+                <reproduccion>
+                    <MadurezSexual>1 años</MadurezSexual>
+                    <celo>todo el año</celo>
+                    <gestacion>2 meses</gestacion>
+                    <numcrias>1-5</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>mamíferos pequeños, aves, reptiles, frutos, raices y carroña.</dieta>
+            <habitat>Matorrales y pastizales desde Canadá hasa el norte de Venezuela y Colombia.</habitat>
+            <estado>preocupacion menor</estado>
+            <datocurioso>es el único cánido que suele trepar a los árboles para escapar, cazar y descansar, por eso algunas personas lo llama gato de monte, aunque no es un felino.</datocurioso>
+    </animales>
+    <animales>
+        <id>09</id>
+            <nombre>MAPACHE</nombre>
+            <descripcion>Su cuerpo es regordete, de coor gris. Sus piernas son cortas y su cola tiene bandas alternas que forman anillos negros y blancos grisáceos. Tiene un antifaz de pelaje negro.</descripcion>
+            <caracteristicas>
+                <talla>60-88 cm. de largo. 24-26.5 cm de cola</talla>
+                <peso>22.8 lbs</peso>
+                <reproduccion>
+                    <MadurezSexual>8-24 meses</MadurezSexual>
+                    <celo>febrero-junio</celo>
+                    <gestacion>2 meses</gestacion>
+                    <numcrias>1-6</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>hierbas, frutas, nueces, insectos, peces, aves, reptiles y roedores.</dieta>
+            <habitat>Sur de Canada</habitat>
+            <estado>preocupacion menor</estado>
+            <datocurioso>su nombre proviene del nahualt mapacti, que quiere decir: que tiene manos, debido a la habilidad de sus patas delanteras. Invadieron Europa a consecuencia de su introducción deliberada o al escaparse accidentalmente de granjas a mitad del siglo XX.</datocurioso>
+    </animales>
+    <animales>
+        <id>10</id>
+            <nombre>JAGUAR</nombre>
+            <descripcion>Generalmente son de color amarillo con manchas negras, llamadas rosetas; vientre y pecho de color blanco grisáceo. Ocasionalmente algunos individuos pueden presentar coloración negra y se llaman melánicos, dándoseles el nombre común de pantera negra.
+            </descripcion>
+            <caracteristicas>
+            <talla>
+                <longitud>1.10-1.90m</longitud>
+                <alza>70cm alzada</alza>
+            </talla>
+                <peso>125-248 lbs</peso>
+                <reproduccion>
+                    <MadurezSexual>2-4años</MadurezSexual>
+                    <celo>todo el año</celo>
+                    <gestacion>3 meses</gestacion>
+                    <numcrias>2-4</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>tortugas, ranas, peces y mamìferos hasta del tamaño de un tapir.</dieta>
+            <habitat>sur de México hata el norte de Argentina.</habitat>
+            <estado>criticamente amenazado</estado>
+            <datocurioso>es el felino más grande de América, habita las selvas de las Verapaces, Izabal y Petén. Es de los pocos felinos a los que les gusta el agua y era considerado un dios por los Mayas               
+            </datocurioso>
+    </animales>
+    <animales>
+        <id>11</id>
+            <nombre>COYOTE</nombre>
+            <descripcion>Tiene el aspecto de un perro tamañao mediano, orejas prominentes y trompa angosta. Su cuerpo es delgado, de color café o gris amarillento.</descripcion>
+            <caracteristicas>
+                <talla>0.75-1.15m de longitud</talla>
+                <peso>26 lbs</peso>
+                <reproduccion>
+                    <MadurezSexual>1 años</MadurezSexual>
+                    <celo>enero-marzo</celo>
+                    <gestacion>2 meses</gestacion>
+                    <numcrias>2-12</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>pequeños mamiferos, aves, reptiles, insectos y frutas.</dieta>
+            <habitat>bosques deciduos, zonas áridas y altiplano desde Alaska hasta Panamá.</habitat>
+            <estado>preocupacion menor</estado>
+            <datocurioso>su nombre científico canis latrans significa perro ladrador, esto se debe al hábito que tiene de ladrar y aullar al anochecer y el amanecer. Son monógamos.</datocurioso>
+    </animales>
+    <animales>
+        <id>12</id>
+            <nombre>PUMA</nombre>
+            <descripcion>Por lo general, su pelaje es de color pardo amarillento que cambia a un tono café rojizo, el vientre es blancuzco. Sus patas traseras son más largas que las delanteras, su cabeza es pequeña y su cola muy larga. Al nacer los cachorros tiene manchas.</descripcion>
+            <caracteristicas>
+                <talla>
+                    <longitud>2.60m</longitud>
+                    <alza>55-78 cm</alza>
+                </talla>
+                <peso>147-226 lbs</peso>
+                <reproduccion>
+                    <MadurezSexual>3 años</MadurezSexual>
+                    <celo>todo el año</celo>
+                    <gestacion>3 meses</gestacion>
+                    <numcrias>hasta 6</numcrias>
+                </reproduccion>
+            </caracteristicas>
+            <dieta>mamíferos de diversos tamaños, aves y peces.</dieta>
+            <habitat>zonas montañosas del sur de Canadá hasta Argentina y Chile.</habitat>
+            <estado>en peligro</estado>
+            <datocurioso>a diferencia de los leones, el puma no ruge sino que ronronea. Gracias  a sus largas patas traseras pueden saltas hacia arriba hasta 5 m., 10 de largo y caer desde alturas de 18 m.</datocurioso>
+    </animales>
+</mamiferos>
