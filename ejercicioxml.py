@@ -17,7 +17,7 @@ for prov in nombreanimales(doc):
 #Ejercicio 2.Contar los animales que esten en algun estado concreto.(Ej:en peligro).
 
 for prov in contaranimales(doc):
-    print("Hay",prov,"animles en esta situacion.")
+    print("Hay",prov,"animales en esta situacion.")
 
 #Ejercicio 3.Buscar una palabra clave en "Datos Curiosos".
 
