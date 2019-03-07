@@ -3,7 +3,7 @@ def nombreanimales(doc):
     return lista
 
 def contaranimales(doc,estado):
-    count = doc.xpath('count(/mamíferos[//estado/text() = "%s"])'%estado)
+    count = doc.xpath('count(//animales/[estado/text() = "%s"])'%estado)
     return count
 
 from lxml import etree
@@ -16,10 +16,14 @@ for prov in nombreanimales(doc):
     
 #Ejercicio 2.Contar los animales que esten en algun estado concreto.(Ej:en peligro).
 
-
+print('''
+Chuleta de estados:
+-.en peligro
+-.vulnerable
+-.criticamente amenazado
+-.preocupacion menor''')
 estado=str(input("Dime el estado que quieres contar:"))
-for prov2 in contaranimales(dos,estado):
-    print(prov2)
+print("Hay",contaranimales(doc,estado),"animales en esta situación")
 
 #Ejercicio 3.Buscar una palabra clave en "Datos Curiosos".
 
