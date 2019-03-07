@@ -16,6 +16,8 @@ for prov in nombreanimales(doc):
     
 #Ejercicio 2.Contar los animales que esten en algun estado concreto.(Ej:en peligro).
 
+
+estado=str(input("Dime el estado que quieres contar:"))
 for prov2 in contaranimales(dos,estado):
     print(prov2)
 
