@@ -6,8 +6,8 @@ def contaranimales(doc,estado):
     count = doc.xpath('count(//animales[estado/text() = "%s"])'%estado)
     return count
 
-def buscarpalabras(doc):
-    search = doc.xpath()
+def buscarpalabras(doc,busqueda):
+    search = doc.xpath('find(//animales/datocurioso/text() = "%a")'%busqueda)
     return search
 
 from lxml import etree
@@ -27,12 +27,23 @@ Chuleta de estados:
 -.vulnerable
 -.criticamente amenazado
 -.preocupacion menor''')
-estado=str(input("Dime el estado que quieres contar: "))
+estado=str(input("\nDime el estado que quieres contar: "))
 print("Hay",contaranimales(doc,estado),"animales en esta situación.")
 
 #Ejercicio 3.Buscar una palabra clave en "Datos Curiosos".
 
 print("\n 3.Buscar una palabra clave en 'Datos Curiosos'.")
+busqueda=str(input("Dime que palabra quieres buscar: "))
+
+while True:
+    if busqueda == False:
+        print("Esa palabra no se encuentra, prueba de nuevo.")
+    else:
+        print(buscarpalabras(doc,busqueda))
+    
+    break
+        
+
 
 #Ejercicio 4.Pedir el numero de crias maximo que puede tener una especie por camada y imprima todas las especies que hay con ese numero de crias o mas.
 
