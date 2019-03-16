@@ -35,19 +35,19 @@ def buscarcurioso(doc,animal):
     return curiosidad
 
 animal=str(input("\n Dime el nombre del animal que quieres conocer sus datos curiosos: "))
+animal=animal.upper()
 print("\n",buscarcurioso(doc,animal))
     
 
 #Ejercicio 4.Pedir el numero de crias maximo que puede tener una especie por camada y imprima todas las especies que hay con ese numero de crias o mas.
 print("\n 4.Pedir el numero de crias maximo que puede tener una especie por camada y imprima todas las especies que hay con ese numero de crias o mas.")
 
-def numcrias(doc):
-    crias = doc.xpath('count(//animales/[numcrias/text() = "%b"])'%cria)
+def numcrias(doc,cria):
+    crias = doc.xpath('//animales[caracteristicas/reproduccion/numcrias/text() = "%i"]/nombre/text()'%cria)
     return crias
 
 cria=int(input("\n ¿Cuantas crias puede tener el animal que estas buscando?   "))
-for listacrias in numcrias(doc):
-    print(listacrias)
+print(numcrias(doc,cria))
 
 #Ejercicio 5.Comparar una caracteristica entre dos animales pedidos por teclado.
 print("\n 5.Comparar una caracteristica entre dos animales pedidos por teclado.")
