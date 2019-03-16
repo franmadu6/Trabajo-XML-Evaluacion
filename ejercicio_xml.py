@@ -50,12 +50,23 @@ cria=int(input("\n ¿Cuantas crias puede tener el animal que estas buscando?   "
 print(numcrias(doc,cria))
 
 #Ejercicio 5.Mostrar lista de caracteristicas, pide animal y una caracteristica y muestre el animal y su caracteristica.
-print("\n 5.Comparar una caracteristica entre dos animales pedidos por teclado.")
+print("\n 5.Mostrar lista de caracteristicas, pide animal y una caracteristica y muestre el animal y su caracteristica.")
 
 def compara(doc):
+    print('''
+    1. Tamaño
+    2. Peso
+    3. Reproduccion
+    4. Lista animales
+    ''')
+    opcion=str(input("Elige una opcion: "))
+    caract=str(input("Dime una caracteristica: "))
+    animal=str(input("Dime el nombre de un aninmal: "))
+    
+    if opcion == 1:
+        
     companimal = doc.xpath('//animales/[peso/text() = "%c"]'%peso)
     return companimal
 
-animal1 =str(input("Dime el nombre del primer aninmal: "))
-animal2 =str(input("Dime el nombre del segudno aninmal: "))
+
             
