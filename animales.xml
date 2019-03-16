@@ -13,7 +13,7 @@
                     <MadurezSexual>2-4años</MadurezSexual>
                     <celo>todo el año</celo>
                     <gestacion>3 meses</gestacion>
-                    <numcrias>2-4</numcrias>
+                    <numcrias>4</numcrias>
                 </reproduccion>
             </caracteristicas>
             <dieta>tortugas,ranas,peces y mamiferos hasta el tamaño de un tapir</dieta>
@@ -35,7 +35,7 @@
                     <MadurezSexual>2años</MadurezSexual>
                     <celo>todo el año</celo>
                     <gestacion>63-70 dias</gestacion>
-                    <numcrias>2-4</numcrias>
+                    <numcrias>4</numcrias>
                 </reproduccion>
             </caracteristicas>
             <dieta>pequeños mamiferos,aves y reptiles</dieta>
@@ -57,7 +57,7 @@
                     <MadurezSexual>3-5 años</MadurezSexual>
                     <celo>noviembre-abril</celo>
                     <gestacion>98-110 dias</gestacion>
-                    <numcrias>2-4</numcrias>
+                    <numcrias>4</numcrias>
                 </reproduccion>
             </caracteristicas>
             <dieta>carnivoros</dieta>
@@ -79,7 +79,7 @@
                     <MadurezSexual>3-5 años</MadurezSexual>
                     <celo>noviembre-abril</celo>
                     <gestacion>98-110 dias</gestacion>
-                    <numcrias>2-4</numcrias>
+                    <numcrias>4</numcrias>
                 </reproduccion>
             </caracteristicas>
             <dieta>carnivoros</dieta>
@@ -93,7 +93,7 @@
             <descripcion>Es un animal de gran tamaño, tiene un hocico muy grande parecido al del perro con grandes colmillos. La cola tiene forma de "U" invertida, su pelaje va de gris oscuro al marrón dorado.</descripcion>
             <caracteristicas>
                 <talla>50-70 cm</talla>
-                <peso>75-100kg</peso>
+                <peso>75-100 lbs</peso>
                 <reproduccion>
                     <MadurezSexual>5-8 años</MadurezSexual>
                     <celo>todo el año</celo>
@@ -136,7 +136,7 @@
                     <MadurezSexual>1-2 años</MadurezSexual>
                     <celo>todo el año</celo>
                     <gestacion>1-2 meses</gestacion>
-                    <numcrias>1-4</numcrias>
+                    <numcrias>4</numcrias>
                 </reproduccion>
             </caracteristicas>
             <dieta>mamíferos, aves, reptiles de tamaño mediano y pequeño.</dieta>
@@ -155,7 +155,7 @@
                     <MadurezSexual>1 años</MadurezSexual>
                     <celo>todo el año</celo>
                     <gestacion>2 meses</gestacion>
-                    <numcrias>1-5</numcrias>
+                    <numcrias>5</numcrias>
                 </reproduccion>
             </caracteristicas>
             <dieta>mamíferos pequeños, aves, reptiles, frutos, raices y carroña.</dieta>
@@ -174,7 +174,7 @@
                     <MadurezSexual>8-24 meses</MadurezSexual>
                     <celo>febrero-junio</celo>
                     <gestacion>2 meses</gestacion>
-                    <numcrias>1-6</numcrias>
+                    <numcrias>6</numcrias>
                 </reproduccion>
             </caracteristicas>
             <dieta>hierbas, frutas, nueces, insectos, peces, aves, reptiles y roedores.</dieta>
@@ -197,7 +197,7 @@
                     <MadurezSexual>2-4años</MadurezSexual>
                     <celo>todo el año</celo>
                     <gestacion>3 meses</gestacion>
-                    <numcrias>2-4</numcrias>
+                    <numcrias>4</numcrias>
                 </reproduccion>
             </caracteristicas>
             <dieta>tortugas, ranas, peces y mamìferos hasta del tamaño de un tapir.</dieta>
@@ -217,7 +217,7 @@
                     <MadurezSexual>1 años</MadurezSexual>
                     <celo>enero-marzo</celo>
                     <gestacion>2 meses</gestacion>
-                    <numcrias>2-12</numcrias>
+                    <numcrias>12</numcrias>
                 </reproduccion>
             </caracteristicas>
             <dieta>pequeños mamiferos, aves, reptiles, insectos y frutas.</dieta>
@@ -239,7 +239,7 @@
                     <MadurezSexual>3 años</MadurezSexual>
                     <celo>todo el año</celo>
                     <gestacion>3 meses</gestacion>
-                    <numcrias>hasta 6</numcrias>
+                    <numcrias>6</numcrias>
                 </reproduccion>
             </caracteristicas>
             <dieta>mamíferos de diversos tamaños, aves y peces.</dieta>
