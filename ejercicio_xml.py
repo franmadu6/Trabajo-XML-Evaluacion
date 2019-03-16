@@ -49,7 +49,7 @@ def numcrias(doc,cria):
 cria=int(input("\n ¿Cuantas crias puede tener el animal que estas buscando?   "))
 print(numcrias(doc,cria))
 
-#Ejercicio 5.Comparar una caracteristica entre dos animales pedidos por teclado.
+#Ejercicio 5.Mostrar lista de caracteristicas, pide animal y una caracteristica y muestre el animal y su caracteristica.
 print("\n 5.Comparar una caracteristica entre dos animales pedidos por teclado.")
 
 def compara(doc):
