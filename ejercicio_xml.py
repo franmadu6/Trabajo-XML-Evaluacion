@@ -55,36 +55,37 @@ print("\n 5.Mostrar lista de caracteristicas, pide animal y una caracteristica y
 def compara(doc,opcion):
     
     if opcion == "1":
+        animal=animal.upper()
+        lista = doc.xpath('//nombre/text()')
+        return lista
+    if opcion == "2":
         animal=str(input("Dime el nombre de un aninmal: "))
         animal=animal.upper()
         tamaño = doc.xpath('//animales[nombre/text() = "%s"]/caracteristicas/talla/longitud/text()'%animal)
         tamaño2 = doc.xpath('//animales[nombre/text() = "%s"]/caracteristicas/talla/alza/text()'%animal)
         return str(tamaño)+" "+str(tamaño2)
-    if opcion == "2":
+    if opcion == "3":
         animal=str(input("Dime el nombre de un aninmal: "))
         animal=animal.upper()
         peso = doc.xpath('//animales[nombre/text() = "%s"]/caracteristicas/peso/text()'%animal)
         return peso
-    if opcion == "3":
+    if opcion == "4":
         animal=str(input("Dime el nombre de un aninmal: "))
         animal=animal.upper()
         repro1 = doc.xpath('//animales[nombre/text() = "%s"]/caracteristicas/reproduccion/MadurezSexual/text()'%animal)
         repro2 = doc.xpath('//animales[nombre/text() = "%s"]/caracteristicas/reproduccion/celo/text()'%animal)
         repro3 = doc.xpath('//animales[nombre/text() = "%s"]/caracteristicas/reproduccion/gestacion/text()'%animal)
         repro4 = doc.xpath('//animales[nombre/text() = "%s"]/caracteristicas/reproduccion/numcrias/text()'%animal)
-        return str(repro1)+" "+str(repro2)+" "+str(repro3)+" "+str(repro4)
-    if opcion == "4":
-        animal=str(input("Dime el nombre de un aninmal: "))
-        animal=animal.upper()
-        repro1 = doc.xpath('//animales[nombre/text() = "%s"]/caracteristicas/reproduccion/MadurezSexual/text()'%animal)
-        return repro1
+        return "\n Madurez sexual: "+str(repro1)+"\n Celo: "+str(repro2)+"\n Gestacion: "+str(repro3)+"\n Número maximo de crías: "+str(repro4)
+    
+
 
 
 print('''
-    1. Tamaño
-    2. Peso
-    3. Reproduccion
-    4. Lista animales
+    1. Lista de animales
+    2. Tamaño
+    3. Peso
+    4. Reproduccion
     ''')
 opcion=str(input("Elige una opcion: "))
 print(compara(doc,opcion))
