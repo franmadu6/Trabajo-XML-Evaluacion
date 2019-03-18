@@ -20,11 +20,12 @@ def contaranimales(doc,estado):
 
 print('''
 Chuleta de estados:
--.en peligro
--.vulnerable
--.criticamente amenazado
--.preocupacion menor''')
+- En peligro
+- Vulnerable
+- Criticamente amenazado
+- Preocupacion menor''')
 estado=str(input("\nDime el estado que quieres contar: "))
+estado=estado.lower()
 print("Hay",contaranimales(doc,estado),"animales en esta situación.")
 
 #Ejercicio 3.Buscar 'Datos Curiosos' de un animal indicado.
