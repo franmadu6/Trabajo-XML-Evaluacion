@@ -81,15 +81,12 @@ def compara(doc,opcion):
         repro4 = doc.xpath('//animales[nombre/text() = "%s"]/caracteristicas/reproduccion/numcrias/text()'%animal)
         return "\n Madurez sexual: "+str(repro1)+"\n Celo: "+str(repro2)+"\n Gestacion: "+str(repro3)+"\n Número maximo de crías: "+str(repro4)
     
-    if opcion == "5":
-        break;
     
 print('''
     1. Lista de animales
     2. Tamaño
     3. Peso
     4. Reproduccion
-    5. Finalizar
     ''')
 opcion=str(input("Elige una opcion: "))
 print(compara(doc,opcion))
