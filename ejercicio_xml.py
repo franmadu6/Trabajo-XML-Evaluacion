@@ -40,8 +40,8 @@ animal=animal.upper()
 print("\n",buscarcurioso(doc,animal))
     
 
-#Ejercicio 4.Pedir el numero de crias maximo que puede tener una especie por camada y imprima todas las especies que hay con ese numero de crias o mas.
-print("\n 4.Pedir el numero de crias maximo que puede tener una especie por camada y imprima todas las especies que hay con ese numero de crias o mas.")
+#Ejercicio 4.Pedir el numero de crias maximo que puede tener una especie por camada y imprima todas las especies que hay con ese numero de crias.
+print("\n 4.Pedir el numero de crias maximo que puede tener una especie por camada y imprima todas las especies que hay con ese numero de crias.")
 
 def numcrias(doc,cria):
     crias = doc.xpath('//animales[caracteristicas/reproduccion/numcrias/text() = "%i"]/nombre/text()'%cria)
