@@ -52,21 +52,25 @@ print(numcrias(doc,cria))
 #Ejercicio 5.Mostrar lista de caracteristicas, pide animal y una caracteristica y muestre el animal y su caracteristica.
 print("\n 5.Mostrar lista de caracteristicas, pide animal y una caracteristica y muestre el animal y su caracteristica.")
 
-def compara(doc):
-    print('''
+def compara(doc,opcion):
+    
+    if opcion == "1":
+        animal=str(input("Dime el nombre de un aninmal: "))
+        animal=animal.upper()
+        tamaño = doc.xpath('//animales[nombre/text() = "%s"]/caracteristicas/talla/longitud/text()'%animal)
+        tamaño2 = doc.xpath('//animales[nombre/text() = "%s"]/caracteristicas/talla/alza/text()'%animal)
+        return str(tamaño)+" "+str(tamaño2)
+    if opcion == "2:"
+        
+
+
+
+print('''
     1. Tamaño
     2. Peso
     3. Reproduccion
     4. Lista animales
     ''')
-    opcion=str(input("Elige una opcion: "))
-    caract=str(input("Dime una caracteristica: "))
-    animal=str(input("Dime el nombre de un aninmal: "))
-    
-    if opcion == 1:
-        
-    companimal = doc.xpath('//animales/[peso/text() = "%c"]'%peso)
-    return companimal
-
-
+opcion=str(input("Elige una opcion: "))
+print(compara(doc,opcion))
             
